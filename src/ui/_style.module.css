@@ -1,0 +1,22 @@
+.upload__button {
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  &:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
+}
